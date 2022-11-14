@@ -1,0 +1,12 @@
+class Gene
+
+    attr_accessor :gene_id
+    attr_accessor :gene_name
+    attr_accessor :phenotype
+      
+    def initialize (gene_id: nil, gene_name: nil, phenotype: nil)
+      @Gene_ID = gene_id
+      @Gene_name = gene_name
+      @mutant_phenotype = phenotype
+    end
+end

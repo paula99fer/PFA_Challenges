@@ -1,0 +1,18 @@
+class Hybrid
+    
+    attr_accessor :parent1
+    attr_accessor :parent2
+    attr_accessor :f2_wild
+    attr_accessor :f2_p1
+    attr_accessor :f2_p2
+    attr_accessor :f2_p1p2
+
+    def initialize (parent1: nil, parent2: nil, f2_wild: nil, f2_p1: nil, f2_p1p2: nil)
+        @parent1 = parent1
+        @parent2 = parent2
+        @f2_wild = f2_wild
+        @f2_p1 = f2_p1
+        @f2_p1p2 = f2_p1p2
+    end
+
+end
